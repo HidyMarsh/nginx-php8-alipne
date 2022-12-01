@@ -1,5 +1,6 @@
 FROM alpine
 
+LABEL Email=ichinohe@netmarvs.com
 RUN apk add --update --no-cache nginx
 RUN apk add  php81 php81-fpm php81-opcache
 
