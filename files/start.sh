@@ -4,7 +4,7 @@
 NGINX_PID=$!
 
 
-/usr/sbin/php-fpm7 -R -F -c /etc/php7/php-fpm.conf 2>&1 &
+/usr/sbin/php-fpm81 -R -F -c /etc/php81/php-fpm.conf 2>&1 &
 PHP_FPM_PID=$!
 
 
